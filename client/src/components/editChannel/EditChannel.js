@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import { useChatContext } from "stream-chat-react";
 
-import { UserList } from "./";
-import { CloseCreateChannel } from "../asset";
+import UserList from "../userList/UserList";
+import { CloseCreateChannel } from "../../assets";
 import "./editChannel.css";
 
 const ChannelNameInput = ({ channelName = "", setChannelName }) => {

@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { useChatContext } from "stream-chat-react";
 
-import { ResultsDropdown } from "./";
+import ResultsDropdown from "../resultDropdown/ResultDropdown";
 import { SearchIcon } from "../../assets";
 
 import "./channelSearch.css";

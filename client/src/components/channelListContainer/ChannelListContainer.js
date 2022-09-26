@@ -1,10 +1,11 @@
 import React, { useState } from "react";
 import { ChannelList, useChatContext } from "stream-chat-react";
 import Cookies from "universal-cookie";
+import ChannelSearch from "../channelSearch/ChannelSearch";
+import TeamChannelList from "../teamChannelList/TeamChannelList";
+import TeamChannelPreview from "../teamChannelPreview/TeamChannelPreview";
 
-import { ChannelSearch, TeamChannelList, TeamChannelPreview } from "./";
-
-import LogoutIcon from "../assets/logout.png";
+import LogoutIcon from "../../assets/logout.png";
 import "./channelListContainer.css";
 
 const cookies = new Cookies();

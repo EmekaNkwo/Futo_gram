@@ -1,5 +1,5 @@
 import React from "react";
-import { AddChannel } from "../assets";
+import { AddChannel } from "../../assets";
 import "./teamChannelList.css";
 
 const TeamChannelList = ({
