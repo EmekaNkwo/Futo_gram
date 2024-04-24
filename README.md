@@ -1,4 +1,4 @@
-# ABE Chat App
+# Chat App
 
 This is a simple chat app that allows users to chat with each other in real time. It is built using React, Node.js, Express and Socket.io.
 
